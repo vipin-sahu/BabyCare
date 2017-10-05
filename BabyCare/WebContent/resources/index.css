@@ -1,0 +1,70 @@
+ body
+    {
+      font-family:Raleway;   
+    }
+   .container.babynamesbyalphabet 
+         {
+             width: 60%;
+             text-align: center;
+             word-wrap: break-word;
+             background-color:aliceblue;
+             margin-top:5%;
+             padding-top: 2%;
+             padding-bottom: 2%;
+        }
+    .list1 
+       {
+            display: inline;
+            /* background-color: white; */
+           /* color: white; */
+            padding-left: 2%;
+        }
+    .list1 a 
+        {
+            color: gray;
+            text-decoration: none;
+        }
+     .list1 a:hover
+       {
+             color:black;
+             text-decoration:none;
+       }
+       .heading
+      {
+           width:100%;
+           text-align:center;
+           margin-top: 4%;
+           margin-bottom: 3%;
+          
+       }
+      .container.babynamesbycategory
+      {
+          width:100%;
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: center;
+          align-items: center;
+          align-content: space-between;
+       }
+    .box 
+     {
+         padding-right: 2%;
+     }
+    h3
+    {
+         text-align: center;
+    }
+    .box img:hover
+    {
+         opacity:0.5;
+    }
+    .container-fluid.footer 
+     {
+    /* min-height: 100px; */
+         text-align: center;
+         color: aliceblue;
+         padding-top: 3%;
+         margin-top:3%;
+         background-color: black;
+     }

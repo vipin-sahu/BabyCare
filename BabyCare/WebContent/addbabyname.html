@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+     <title>First Bootstrap</title>
+      <link rel="stylesheet" href="resources/navigation.css">
+      <link rel="stylesheet" href="resources/bootstrap.min.css"/>
+      <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway"/>
+       <style>
+            body
+             {
+                  font-family:Raleway;   
+              }
+          .container.AdminLogin
+               {
+                  background-color: aliceblue;
+                  width: 33%;
+                  margin-top:10%;
+                  align: center;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  flex-direction:column;
+                  margin-bottom:10%;
+               }
+          .btn-primary
+            {
+                 margin-bottom: 9%;
+                 width: 100%;
+                 color: #fff;
+                 height:40px;
+                 background-color: gray;
+                 border-color: gray;
+             }
+            .btn-primary:hover
+            {
+                color: #fff;
+                background-color: black;
+                border-color: #204d74;
+            }
+            input#name1
+            {
+                  height: 48px;
+             }
+            input#password1 
+            {
+                  height: 48px;
+             }
+           input#meaning1 
+           {
+                height: 48px;
+           }
+           select#religion1 
+           {
+                height: 48px;
+            }
+       .container-fluid.footer 
+        {
+    /* min-height: 100px; */
+         text-align: center;
+         color: aliceblue;
+         padding-top: 3%;
+         margin-top:3%;
+         background-color: black;
+       }
+      
+      </style>
+    </head>
+    
+  <body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">BabyCare</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Home</a></li>
+        <li class="active"><a href="addbabyname.html">Baby Names</a></li>
+        <li><a href="tips.html">Tips</a></li>
+        <li><a href="food.html">Food</a></li>
+        
+		<li><a href="product.html">Product</a></li>
+		 
+		<li><a href="adminloginform.html">Admin</a></li>
+        </ul>
+
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+</div>
+      
+<div class="container AdminLogin">
+    <div>
+        <h1>AddBaby Name</h1>
+    </div>
+    <form style="width:300px" action="AddBabyName" method="post">
+  <div class="form-group">
+    <label for="name1">Name:</label>
+    <input type="text" name="name" class="form-control" id="name1" placeholder="Name"/>
+  </div>
+  <div class="form-group">
+    <label for="meaning1">Meaning:</label>
+    <input type="text" name="meaning" class="form-control" id="meaning1" placeholder="Meaning"/>
+  </div>
+  <div class="form-group">
+    <label for="sex1">Sex:</label>
+    <input type="radio" name="sex" value="boy" id="sex1"/>Male
+    <input type="radio" name="sex" value="girl" id="sex1"/>Female
+  </div>
+  <div class="form-group">
+    <label for="religion1">Religion:</label>
+    <select name="religion" class="form-control" id="religion1">
+    <option>Hindu</option>
+    <option>Muslim</option>
+    <option>Christian</option>
+    <option>Sikh</option>
+    <option>Jews</option>
+    <option>Jain</option>
+    <option>Buddhist</option>
+    </select>
+  </div>
+  
+  <button type="submit" class="btn btn-primary">Add Baby Name</button>
+</form>
+
+</div>
+
+    <div class="container-fluid footer">
+		<p>&copy;Copyright Vipin Kumar Sahu.</p>
+	</div>
+      
+      
+
+  <script src="resources/jquery.min.js"></script>
+  <script src="resources/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+.navbar-inverse 
+      {
+    /* background: linear-gradient(black,gray); */
+          border-color: white;
+      }
+  .container-fluid 
+       {
+          background-color: white;
+          min-height: 100px;
+          padding-top: 2%;
+       }
+  div#bs-example-navbar-collapse-1
+      {
+          margin-left: 30%;
+      }
+     .navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover 
+      {
+           color: black;
+           background-color: transparent;
+     }
+    .navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover 
+     {
+          color:black;
+          background-color: transparent;
+       }
+    a.navbar-brand
+    {
+         padding-left: 40%;
+    }

@@ -1,0 +1,38 @@
+ body
+         {
+             font-family:Raleway;
+         }
+         .container-fluid.footer 
+             {
+                /* min-height: 100px; */
+                text-align: center;
+                color: aliceblue;
+                padding-top: 3%;
+                margin-top:3%;
+                background-color: black;
+             }
+         .products
+         {
+                margin-top: 13%;
+                display: flex;
+                flex-direction:row;
+                align-items: center;
+                justify-content: center;
+                flex-wrap: wrap;
+          }
+         
+         .list-item1
+          {
+                margin-right: 4%;
+                border: 1px solid black;
+                padding: 1%;
+                border-radius: 1px;
+                margin-bottom: 3%;
+                background-color: black;
+               /* color: white; */
+           }
+          .list-item1 a:hover 
+           {
+                color:aliceblue;
+                text-decoration:none;
+           }

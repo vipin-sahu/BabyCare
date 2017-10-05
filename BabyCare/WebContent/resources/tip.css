@@ -1,0 +1,28 @@
+        body
+           {
+              font-family:Raleway; 
+            }
+        .container-fluid.footer 
+             {
+                /* min-height: 100px; */
+                text-align: center;
+                color: aliceblue;
+                padding-top: 3%;
+                margin-top:3%;
+                background-color: black;
+             }
+         .tips
+             {
+                 margin-top:10%;
+             }
+        .navbar-inverse 
+            {
+            /* background: linear-gradient(black,gray); */
+                 border-color:white; 
+               }
+           inverse .navbar-nav>li>a:hover 
+            {
+                color: black;
+                background-color: transparent;
+            }
+        

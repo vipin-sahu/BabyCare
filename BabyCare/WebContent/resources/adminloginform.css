@@ -1,0 +1,48 @@
+          body
+             {
+                  font-family:Raleway;   
+              }
+          .container.AdminLogin
+               {
+                  background-color: aliceblue;
+                  width: 33%;
+                  margin-top:10%;
+                  align: center;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  flex-direction:column;
+                  margin-bottom:10%;
+               }
+          .btn-primary
+            {
+                 margin-bottom: 9%;
+                 width: 100%;
+                 color: #fff;
+                 height:40px;
+                 background-color: gray;
+                 border-color: gray;
+             }
+            .btn-primary:hover
+            {
+                color: #fff;
+                background-color: black;
+                border-color: #204d74;
+            }
+            input#name1
+            {
+                  height: 48px;
+             }
+            input#password1 
+            {
+                  height: 48px;
+             }
+       .container-fluid.footer 
+        {
+    /* min-height: 100px; */
+         text-align: center;
+         color: aliceblue;
+         padding-top: 3%;
+         margin-top:3%;
+         background-color: black;
+       }

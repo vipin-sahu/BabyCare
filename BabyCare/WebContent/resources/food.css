@@ -1,0 +1,37 @@
+       body
+         {
+             font-family:Raleway;
+         }
+         .container.foodstips
+         {
+            width: 100%;
+            margin-top:4%;
+            display: flex;
+            flex-direction:row;
+            align-items: center;
+            justify-content:center;
+            flex-wrap: wrap;
+          }
+         .box1
+         {
+           max-width: 30%;
+           /* margin-right: 3%; */
+         }
+         .box1 p 
+          {
+             max-width: 70%;
+          }
+         .container.head
+         {   width:100%;
+             margin-top: 10%;
+             text-align: center;
+         }
+         .container-fluid.footer 
+        {
+    /* min-height: 100px; */
+         text-align: center;
+         color: aliceblue;
+         padding-top: 3%;
+         margin-top:3%;
+         background-color: black;
+       }
